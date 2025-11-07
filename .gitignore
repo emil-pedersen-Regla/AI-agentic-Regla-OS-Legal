@@ -1,0 +1,20 @@
+# Sensitive legal documents - NEVER commit to version control
+agreements/
+!agreements/.gitkeep
+!agreements/*/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.swn
+.vscode/
+.idea/
