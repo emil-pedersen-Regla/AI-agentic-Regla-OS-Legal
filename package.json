@@ -3,7 +3,7 @@
   "private": true,
   "description": "Legal Module - AI Legal Expert with local Claude Code setup",
   "devDependencies": {
-    "@anthropic-ai/claude-code": "^2.0.54"
+    "@anthropic-ai/claude-code": "^2.0.72"
   },
   "scripts": {
     "claude": "claude",
