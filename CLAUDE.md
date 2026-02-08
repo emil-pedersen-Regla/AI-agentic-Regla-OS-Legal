@@ -713,7 +713,7 @@ Reference specific clauses, sections, and legal provisions:
 Maintain detailed analysis records in docs/:
 - Save all contract reviews to docs/projects/YYYY/[contract-name]/
 - Use templates in docs/templates/ for consistency
-- Follow naming convention: Document_Type_Description_YYYYMMDD_v##.md
+- Follow naming convention per `naming-rules.yaml`: `{type}--{subject}[-{YYYYMMDD}][-v{NN}].md`
 - Track decisions in decisions/ using Lightweight Decision Records (LDR)
 - Update progress.md after completing significant work
 
@@ -878,7 +878,7 @@ Create comprehensive analysis deliverables:
 ### Documentation Standards
 - Follow OS layer documentation governance (see main project CLAUDE.md)
 - Use Lightweight Decision Records (LDR) for significant legal decisions
-- Follow project naming conventions: Component_Feature_Description_YYYYMMDD_v##.md
+- **Naming**: See `naming-rules.yaml` (project root) for the single source of truth. New files use `{type}--{subject}[-{YYYYMMDD}][-v{NN}].md` format (e.g., `invest--gdpr-compliance-20260115-v01.md`). Existing `PascalCase_Underscore_YYYYMMDD_v##.ext` files are grandfathered.
 - Maintain documentation in appropriate docs/ subdirectories
 - Update progress.md immediately after completing tasks
 
@@ -1103,7 +1103,7 @@ Emil must:
 Before ending any work session:
 
 - [ ] All analysis documents saved to correct locations
-- [ ] File naming follows conventions (Component_Feature_YYYYMMDD_v##.md)
+- [ ] File naming follows `naming-rules.yaml` conventions (`{type}--{subject}[-{YYYYMMDD}][-v{NN}].md`)
 - [ ] Sensitive documents stored in agreements/ (gitignored)
 - [ ] Progress.md updated with completed work
 - [ ] Decision records created for significant decisions
