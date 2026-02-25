@@ -2,10 +2,10 @@
 
 > **Living document** - Updated continuously as the project progresses.
 
-## Current Phase: Recalibrated - Ready for Lean Drafting
+## Current Phase: Draft v01 Under Review - Meeting Tomorrow
 
 **Started**: 2026-02-19
-**Status**: Research complete. Scope significantly recalibrated based on founder input. Agreement target: 3-5 pages, bare-bones practical.
+**Status**: Draft v01 complete and revised (2026-02-25). Internal review in progress. Meeting with OptoCeutics scheduled for 2026-02-26.
 
 ### Recalibration Note (2026-02-19)
 
@@ -42,6 +42,14 @@ Everything else from the research is useful background knowledge but should NOT 
 | 2026-02-19 | Include "negative partnership" clause | Prevents court recharacterization as I/S (unlimited liability) |
 | 2026-02-19 | Regla as independent controller (not processor/joint controller) | Avoids DPA requirements; supported by CNIL 2025 guidance |
 | 2026-02-19 | Role-based asymmetry (not size-based) | Obligations flow from what each party does, not from headcount |
+| 2026-02-25 | Platform access scoped to Background definition (Section 3.1) | Prevents free access extending to unrelated future products Regla may develop independently; ties access to the medtech regulatory platform described in the cooperation |
+| 2026-02-25 | Post-termination access also scoped (Section 7.4a) | Consistent with Section 3.1 scoping; 10-year access applies to the cooperation platform, not separate products |
+| 2026-02-25 | Fair-use qualifier added to post-termination access (Section 7.4a) | Prevents potential abuse of free access (e.g., excessive compute-heavy usage); "reasonable usage consistent with OptoCeutics' own business needs" |
+| 2026-02-25 | Added mutual liability limitation section (new Section 8) | Danish law applies unlimited fault-based liability by default when silent; EUR 50,000 aggregate cap protects both parties proportionate to startup scale; excludes indirect/consequential losses; carves out confidentiality breaches and gross negligence/wilful misconduct |
+| 2026-02-25 | Liability cap set at EUR 50,000 | Meaningful protection without being existential for a 100K EUR/year startup; research confirmed no-money nature does not reduce liability under Danish law |
+| 2026-02-25 | Confidentiality breaches excluded from liability cap | Ensures NDA teeth remain intact; both parties' confidential information (QMS data, platform IP) deserves uncapped protection |
+| 2026-02-25 | IP assignment clause (Section 4.3) kept as-is | Clean assignment is simpler and appropriate for aligned interests; don't preemptively soften own draft |
+| 2026-02-25 | Developer resource NOT included in cooperation agreement | Would change deal nature, trigger VAT barter risk, and reduce flexibility; Section 1.2 allows separate written arrangements; recommend side letter if agreed verbally |
 
 ## Research Status
 
@@ -52,6 +60,7 @@ Everything else from the research is useful background knowledge but should NOT 
 | IP ownership structures | C | Complete | `research/ip-ownership-structures.md` |
 | Mutual protection & liability | D | Complete | `research/mutual-protection-liability.md` |
 | QMS data access & GDPR | E | Complete | `research/qms-data-access-gdpr.md` |
+| Liability in Danish cooperation agreements | F | Complete | `research/liability-in-danish-cooperation-agreements.md` |
 
 ---
 
@@ -214,9 +223,10 @@ Based on synthesis of all five research streams:
 
 ## Timeline
 
-- **2026-02-19**: Project initiated, all 5 research streams completed, synthesis done
-- **Next**: Draft the cooperation agreement based on synthesized findings
-- **Then**: Internal review, share with OptoCeutics for negotiation
+- **2026-02-19**: Project initiated, all 5 research streams completed, synthesis done, draft v01 completed
+- **2026-02-25**: Internal review session. Added platform scope clarification, fair-use qualifier, mutual liability section. Liability research (Agent F) completed. Draft revised.
+- **2026-02-26**: Meeting with OptoCeutics (scheduled)
+- **Next**: Negotiation & revision based on OptoCeutics feedback
 
 ## Blockers
 

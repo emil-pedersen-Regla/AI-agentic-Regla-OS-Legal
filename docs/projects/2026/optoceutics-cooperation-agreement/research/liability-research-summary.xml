@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liability-research date="2026-02-25" agreement="Regla-OptoCeutics Cooperation Agreement v01">
+
+  <key-finding id="1">
+    <title>Danish Default Rules Create Unlimited Liability</title>
+    <detail>When a cooperation agreement is silent on liability, Danish law applies the culpa norm (fault-based liability) with no statutory cap. Both direct and indirect/consequential damages are recoverable. For a 100K EUR/year startup, this creates existential risk in low-probability but high-severity scenarios (e.g., QMS data breach triggering regulatory action at OptoCeutics).</detail>
+  </key-finding>
+
+  <key-finding id="2">
+    <title>No-Money Nature Does Not Reduce Liability</title>
+    <detail>Danish law does not recognize consideration. Barter/in-kind agreements carry the same liability exposure as paid contracts. The fact that no money changes hands provides no legal protection against damages claims.</detail>
+  </key-finding>
+
+  <key-finding id="3">
+    <title>Courts Treat Silence as Deliberate Choice</title>
+    <detail>The Danish Supreme Court applies Section 36 (reasonableness) restrictively to commercial B2B contracts, reasoning that agreements "rest on a comprehensive balancing of business risks." A court would not add liability protections the parties chose to omit.</detail>
+  </key-finding>
+
+  <key-finding id="4">
+    <title>Natural Protections Exist but Are Insufficient</title>
+    <detail>Culpa (must prove fault), adaekvans (foreseeability), and tabsbegraeningsplikt (duty to mitigate) provide some limitation. But these are assessed post-hoc by courts and provide no contractual certainty. They do not cap liability.</detail>
+  </key-finding>
+
+  <options>
+    <option id="A" name="No liability clause">
+      <pros>Maximum simplicity; consistent with lightweight design; Danish defaults provide reasonable baseline</pros>
+      <cons>Unlimited liability exposure; indirect damages recoverable; existential risk to Regla; asymmetric risk profile</cons>
+      <verdict>NOT RECOMMENDED -- downside risk disproportionate to simplicity benefit</verdict>
+    </option>
+    <option id="B" name="One-sentence limitation">
+      <text>Neither Party shall be liable for indirect/consequential losses; aggregate liability capped at EUR 50,000.</text>
+      <pros>Minimal text; eliminates worst default exposure; standard practice</pros>
+      <cons>Compressed; may need negotiation on cap figure</cons>
+      <verdict>ACCEPTABLE MINIMUM</verdict>
+    </option>
+    <option id="C" name="Short liability section (2-3 sentences)">
+      <text>Exclude indirect/consequential losses. Cap aggregate liability at EUR 50,000 excluding confidentiality breaches. Preserve liability for gross negligence and wilful misconduct.</text>
+      <pros>Clear and comprehensive; carves out confidentiality (protects OptoCeutics' core interest); shows good faith; follows Danish commercial practice exactly</pros>
+      <cons>Slightly heavier than Option B; confidentiality carve-out leaves some Regla exposure uncapped</cons>
+      <verdict>RECOMMENDED -- best balance of protection and simplicity</verdict>
+    </option>
+    <option id="D" name="Detailed liability section">
+      <pros>Most comprehensive protection; covers edge cases</pros>
+      <cons>Inconsistent with agreement design principle; signals distrust; may trigger full legal review; overkill for no-money cooperation</cons>
+      <verdict>NOT RECOMMENDED -- disproportionate to agreement spirit</verdict>
+    </option>
+  </options>
+
+  <red-team-synthesis>
+    <no-clause-risk>Existential: a single data breach or platform failure could generate claims exceeding Regla's entire annual budget multiple times over. The asymmetry is stark -- the downside of omission (company-ending liability) vastly outweighs the downside of inclusion (three extra sentences).</no-clause-risk>
+    <add-clause-risk>Manageable: potential to signal distrust is real but overstated. Liability clauses are standard in Danish commercial agreements. OptoCeutics' own supplier contracts almost certainly include them. Frame as mutual protection, not hedging. Risk of triggering negotiation is low with a short, mutual clause.</add-clause-risk>
+    <trust-argument>Adding a liability clause in a good-faith cooperation does NOT signal distrust. Its absence signals inexperience. Every Danish commercial lawyer would expect to see one.</trust-argument>
+  </red-team-synthesis>
+
+  <recommendation>
+    <primary>Option C: Add a 3-sentence liability section excluding indirect losses, capping aggregate liability at EUR 50,000 (excluding confidentiality breaches), and preserving liability for gross negligence/wilful misconduct.</primary>
+    <rationale>Eliminates existential risk while preserving the lightweight, coffee-readable character. The confidentiality carve-out demonstrates that Regla takes OptoCeutics' data seriously. Consistent with Danish commercial practice between professional parties.</rationale>
+    <presentation-framing>Present as mutual protection: "Standard mutual liability limitation -- protects both of us equally. Three sentences. Confidentiality obligations remain fully enforceable because we take your data seriously."</presentation-framing>
+  </recommendation>
+
+</liability-research>

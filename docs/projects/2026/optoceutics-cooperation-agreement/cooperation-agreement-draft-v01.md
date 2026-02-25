@@ -24,7 +24,7 @@ Each a "Party" and together the "Parties."
 
 ## Background
 
-A. Regla develops an AI-powered platform for automating quality management and regulatory documentation for medical device manufacturers (the "Platform").
+A. Regla develops an AI-powered platform for medical device manufacturers that automates quality management and regulatory documentation, provides analytical capabilities across clinical and regulatory data, and supports regulatory strategy (the "Platform").
 
 B. OptoCeutics is a medical device manufacturer that maintains a Quality Management System ("QMS") in accordance with applicable regulatory requirements.
 
@@ -70,7 +70,7 @@ D. This Agreement sets out the terms of that cooperation, including confidential
 
 ## 3. Platform Access
 
-3.1. During the term of this Agreement, Regla grants OptoCeutics free access to the Platform, including all updates and new features as they become available.
+3.1. During the term of this Agreement, Regla grants OptoCeutics free access to the Platform, including updates and new features as they become available. For the avoidance of doubt, this right of access applies to the Platform as described in the Background of this Agreement and does not extend to separate products or services that Regla may develop independently.
 
 3.2. Upon termination of this Agreement, OptoCeutics' continued access to the Platform depends on the circumstances of termination, as set out in Section 7.
 
@@ -137,7 +137,7 @@ D. This Agreement sets out the terms of that cooperation, including confidential
 
 7.4. **Post-termination Platform access.** The level of Platform access OptoCeutics receives after termination depends on the duration and circumstances of the cooperation:
 
-   (a) **Full access with updates (10 years from Commercial Launch):** OptoCeutics retains free access to the Platform, including all updates and new features, for a period of ten (10) years from the Commercial Launch date (as defined in Section 3.3). This applies if:
+   (a) **Full access with updates (10 years from Commercial Launch):** OptoCeutics retains free access to the Platform, including updates and new features within the scope described in the Background of this Agreement, for a period of ten (10) years from the Commercial Launch date (as defined in Section 3.3). This applies if:
 
    - the cooperation has lasted at least two (2) years at the time of termination; or
 
@@ -145,7 +145,7 @@ D. This Agreement sets out the terms of that cooperation, including confidential
 
    - the termination is due to a material breach by Regla under Section 7.3.
 
-   After the 10-year period, Regla and OptoCeutics may agree on continued access on commercial terms.
+   After the 10-year period, Regla and OptoCeutics may agree on continued access on commercial terms. Platform access under this Section is subject to reasonable usage levels consistent with OptoCeutics' own business needs.
 
    (b) **Frozen access (no updates):** OptoCeutics retains free access to the version of the Platform as it exists at the date of termination, but is not entitled to future updates, new features, or improvements. This applies if:
 
@@ -157,21 +157,29 @@ D. This Agreement sets out the terms of that cooperation, including confidential
 
    (a) Each Party shall return or, at the disclosing Party's option, delete the other Party's Confidential Information within a reasonable time, except to the extent retention is required by law or regulation;
 
-   (b) The provisions of Sections 3 (Platform Access), 4 (Intellectual Property), 5 (Confidentiality), and 6 (Data Handling) survive termination.
+   (b) The provisions of Sections 3 (Platform Access), 4 (Intellectual Property), 5 (Confidentiality), 6 (Data Handling), and 8 (Liability) survive termination.
 
-## 8. General Provisions
+## 8. Liability
 
-8.1. **Governing law.** This Agreement is governed by Danish law.
+8.1. Neither Party shall be liable to the other for any indirect or consequential losses arising out of or in connection with this Agreement, including but not limited to loss of profit, loss of business, or loss of data.
 
-8.2. **Disputes.** Any dispute arising from this Agreement shall be settled by the ordinary Danish courts, with the Copenhagen City Court (Københavns Byret) as the court of first instance.
+8.2. Each Party's total aggregate liability under this Agreement shall not exceed EUR 50,000 (fifty thousand euros), except in cases of gross negligence or wilful misconduct.
 
-8.3. **Amendments.** Amendments to this Agreement must be made in writing and signed by both Parties.
+8.3. The limitation in Section 8.2 does not apply to breaches of the confidentiality obligations in Section 5.
 
-8.4. **Notices.** Written notices under this Agreement shall be sent by email to the addresses notified by each Party, or by physical mail to the addresses stated above.
+## 9. General Provisions
 
-8.5. **Entire agreement.** This Agreement constitutes the entire agreement between the Parties regarding the cooperation described herein and supersedes all prior discussions, understandings, and agreements on the subject matter.
+9.1. **Governing law.** This Agreement is governed by Danish law.
 
-8.6. **Severability.** If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+9.2. **Disputes.** Any dispute arising from this Agreement shall be settled by the ordinary Danish courts, with the Copenhagen City Court (Københavns Byret) as the court of first instance.
+
+9.3. **Amendments.** Amendments to this Agreement must be made in writing and signed by both Parties.
+
+9.4. **Notices.** Written notices under this Agreement shall be sent by email to the addresses notified by each Party, or by physical mail to the addresses stated above.
+
+9.5. **Entire agreement.** This Agreement constitutes the entire agreement between the Parties regarding the cooperation described herein and supersedes all prior discussions, understandings, and agreements on the subject matter.
+
+9.6. **Severability.** If any provision of this Agreement is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
 
 ---
 
