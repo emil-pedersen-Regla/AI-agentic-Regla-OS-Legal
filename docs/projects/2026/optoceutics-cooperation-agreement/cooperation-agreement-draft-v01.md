@@ -6,14 +6,14 @@
 
 **Between:**
 
-**Regla ApS** (CVR no. [________])
-[Address]
+**Regla ApS** (CVR no. 45462013)
+Dalgas Boulevard 48, 2000 Frederiksberg
 ("Regla")
 
 **and**
 
-**OptoCeutics A/S** (CVR no. [________])
-[Address]
+**OptoCeutics A/S** (CVR no. 39769689)
+Nørrebrogade 45C, 4. tv., 2200 København N
 ("OptoCeutics")
 
 Each a "Party" and together the "Parties."
@@ -192,7 +192,9 @@ D. This Agreement sets out the terms of that cooperation, including confidential
 Name: ________________________
 Title: ________________________
 Date: ________________________
-Signature: ________________________
+Signature:
+
+________________________
 
 &nbsp;
 
@@ -201,4 +203,6 @@ Signature: ________________________
 Name: ________________________
 Title: ________________________
 Date: ________________________
-Signature: ________________________
+Signature:
+
+________________________

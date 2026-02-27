@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<legal_research_summary>
+  <meta>
+    <title>Consultancy Framing Research: Regla-OptoCeutics Agreement</title>
+    <date>2026-02-26</date>
+    <jurisdiction>Denmark</jurisdiction>
+    <conclusion>VIABLE - consultancy framing is legally sound under Danish law with manageable risks</conclusion>
+  </meta>
+
+  <key_findings>
+    <finding area="consideration">
+      <status>FAVORABLE</status>
+      <summary>Danish law (Aftaleloven) does NOT require monetary consideration for a valid contract. Contract formation requires only offer and acceptance. A zero-payment consultancy is legally valid. Reciprocity expectation exists but is satisfied by mutual exchange of services, data access, and IP retention.</summary>
+    </finding>
+
+    <finding area="ip_ownership">
+      <status>STRONGLY_FAVORABLE</status>
+      <summary>Under Danish Copyright Act (Ophavsretsloven), the consultant RETAINS copyright by default. No automatic transfer from consultant to client exists (unlike employment). The consultancy framing means Regla keeps all IP without needing special contractual provisions -- this is the legal default. A cooperation agreement would create ambiguity around joint ownership.</summary>
+    </finding>
+
+    <finding area="vat_barter">
+      <status>MEDIUM_RISK</status>
+      <summary>Under Momsloven and EU VAT Directive Art. 73, barter transactions are taxable at 25% on the subjective value of consideration received. If SKAT treats this as barter, both parties must account for VAT. Net financial impact is likely zero (both deduct input VAT) but creates administrative burden and non-compliance risk. Mitigation: frame OptoCeutics contributions as client cooperation enabling consultancy, not as counter-services.</summary>
+    </finding>
+
+    <finding area="non_compete">
+      <status>FAVORABLE</status>
+      <summary>B2B non-competes are governed by general contract law (Aftaleloven Section 36), not the restrictive employment rules. Enforceability depends on reasonableness of duration (24 months defensible), scope (must be specific to Regla IP, not blanket), and proportionality. Recommend framing as non-misuse obligation rather than pure non-compete.</summary>
+    </finding>
+
+    <finding area="recharacterization_risk">
+      <status>MEDIUM_RISK</status>
+      <summary>Danish courts apply substance-over-form (realitetsgrundsaetning). If the operational reality shows co-development, a court may look through the consultancy label. Mitigation: Regla must maintain autonomous decision-making over its platform. Avoid joint governance, shared roadmaps, or co-development language. Frame OptoCeutics input as client feedback.</summary>
+    </finding>
+
+    <finding area="source_code_access">
+      <status>MANAGEABLE</status>
+      <summary>Source code access should be framed as a limited, non-exclusive, non-transferable license for internal use only. If too prominent, the agreement could be recharacterized as a license agreement. Keep source code access ancillary to the consulting services, not the core deliverable.</summary>
+    </finding>
+  </key_findings>
+
+  <recommendation>
+    <preferred_framing>Pure consultancy agreement</preferred_framing>
+    <structure>
+      <element>Recitals explaining non-monetary compensation structure</element>
+      <element>Scope of Regla consulting services</element>
+      <element>Client cooperation obligations (OptoCeutics data access, feedback)</element>
+      <element>IP clause: all platform IP remains Regla property</element>
+      <element>Limited source code license for internal use</element>
+      <element>Non-misuse and confidentiality provisions</element>
+      <element>24-month post-termination non-misuse period</element>
+      <element>Danish law, Copenhagen jurisdiction</element>
+    </structure>
+    <critical_drafting_rules>
+      <rule>Use "consulting services" language, never "co-development" or "partnership"</rule>
+      <rule>Describe OptoCeutics contributions as "client cooperation" not "counter-services"</rule>
+      <rule>No joint steering committees or shared governance</rule>
+      <rule>State the no-payment arrangement explicitly for transparency</rule>
+      <rule>Operational reality must match the consultancy framing</rule>
+    </critical_drafting_rules>
+  </recommendation>
+
+  <risk_matrix>
+    <risk level="MEDIUM" area="VAT barter treatment">Mitigate by framing OptoCeutics role as client enablement, not counter-supply</risk>
+    <risk level="MEDIUM" area="Recharacterization as co-development">Mitigate by maintaining Regla autonomy and avoiding partnership language</risk>
+    <risk level="LOW" area="Section 36 unfairness challenge">Danish courts very restrained in B2B context</risk>
+    <risk level="LOW" area="Employment misclassification">Regla works independently with own tools</risk>
+  </risk_matrix>
+</legal_research_summary>

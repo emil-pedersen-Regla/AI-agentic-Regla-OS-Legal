@@ -2,10 +2,10 @@
 
 > **Living document** - Updated continuously as the project progresses.
 
-## Current Phase: Draft v01 Under Review - Meeting Tomorrow
+## Current Phase: Draft v03 Complete - Meeting Today
 
 **Started**: 2026-02-19
-**Status**: Draft v01 complete and revised (2026-02-25). Internal review in progress. Meeting with OptoCeutics scheduled for 2026-02-26.
+**Status**: Draft v03 complete (2026-02-26). Streamlined to match standard Danish konsulentaftale format based on template research. ~1.5 pages. Meeting with OptoCeutics today (2026-02-26).
 
 ### Recalibration Note (2026-02-19)
 
@@ -50,6 +50,24 @@ Everything else from the research is useful background knowledge but should NOT 
 | 2026-02-25 | Confidentiality breaches excluded from liability cap | Ensures NDA teeth remain intact; both parties' confidential information (QMS data, platform IP) deserves uncapped protection |
 | 2026-02-25 | IP assignment clause (Section 4.3) kept as-is | Clean assignment is simpler and appropriate for aligned interests; don't preemptively soften own draft |
 | 2026-02-25 | Developer resource NOT included in cooperation agreement | Would change deal nature, trigger VAT barter risk, and reduce flexibility; Section 1.2 allows separate written arrangements; recommend side letter if agreed verbally |
+| 2026-02-26 | **MAJOR RESTRUCTURING**: Cooperation → Consultancy agreement | Marcus (OptoCeutics) feedback: contract too long, needs to "go under the radar" internally. Consultancy framing actually strengthens Regla's IP position (Danish copyright law defaults IP to consultant). |
+| 2026-02-26 | Agreement reduced from 5+ pages to ~2 pages | Marcus requirement. Removed tiered post-termination access (Section 7.4), detailed data handling, IP assignment clause. Replaced with source code license. |
+| 2026-02-26 | Source code license granted to OptoCeutics | OptoCeutics gets non-exclusive, non-transferable license for internal use including their own products. Cannot distribute to third parties. License survives termination but revokes on breach. |
+| 2026-02-26 | IP assignment clause (old 4.3) REMOVED | Marcus bound by own employment constraints, cannot sign IP assignment. Not needed under consultancy framing - Regla owns what Regla builds by default under Danish copyright law. |
+| 2026-02-26 | Use restrictions replace non-compete | IP-based restriction ("don't use our code for third-party products") instead of market-based non-compete ("don't compete in E-QMS"). OptoCeutics free to build own products with own code. 24 months post-termination. |
+| 2026-02-26 | OptoCeutics can use source code in own products (non-competing) | Generous grant - costs Regla nothing, builds loyalty. Restricted only from third-party distribution. |
+| 2026-02-26 | AI rewriting protection added | Explicit clause prohibiting use of AI tools on source code for creating third-party software. Trade secret acknowledgment added. Based on research: copyright insufficient for AI rewrites, trade secret law protects the process. |
+| 2026-02-26 | Confidentiality expanded to cover concepts/architecture | Protects against non-literal copying and AI-assisted reimplementation. Source code acknowledged as trade secret. |
+| 2026-02-26 | 10-year post-termination access REMOVED | Replaced by source code license which survives termination. Simpler, shorter, gives OptoCeutics equivalent protection. |
+| 2026-02-26 | Platform description: "proprietary AI-powered E-QMS" | More specific than v01 to avoid overlap with OptoCeutics' own internal platform. Covers documentation automation, clinical/regulatory data analysis, regulatory strategy. |
+| 2026-02-26 | **v03**: Streamlined to standard konsulentaftale format | Research of 15+ Danish consultancy templates showed v02 had non-standard elements (Use Restrictions section, Trade Secrets Act reference, audit carve-out, explicit no-cash statement). All removed or absorbed. |
+| 2026-02-26 | Use Restrictions section removed (was v02 Section 3) | Most non-standard element. Made agreement look like software license. Protection preserved via source code license terms in IP section ("does not include right to distribute or make derived works available to third parties"). |
+| 2026-02-26 | AI rewriting clause removed (was v02 Section 3.2) | Sent bad signal. Protection preserved via "derived works" language in source code license and confidentiality covering architecture/concepts. |
+| 2026-02-26 | Background C (no-cash explanation) removed | Not standard in consultancy agreements. Deal structure is implicit. |
+| 2026-02-26 | "No partnership" replaced with "independent contractor" | Danish practice: "selvstændig erhvervsdrivende" not Anglo-American negative partnership clause. |
+| 2026-02-26 | Client obligations section removed | Not standard in consultancy. Made it look like two-way cooperation, not client-consultant. |
+| 2026-02-26 | Trade Secrets Act reference removed | Too legally sophisticated for simple konsulentaftale. Trade secret protection still applies by operation of law. |
+| 2026-02-26 | Agreement reduced to 6 sections, ~1.5 pages | Matches standard Danish SME konsulentaftale structure. Indistinguishable from routine consultancy contracts. |
 
 ## Research Status
 
@@ -61,6 +79,8 @@ Everything else from the research is useful background knowledge but should NOT 
 | Mutual protection & liability | D | Complete | `research/mutual-protection-liability.md` |
 | QMS data access & GDPR | E | Complete | `research/qms-data-access-gdpr.md` |
 | Liability in Danish cooperation agreements | F | Complete | `research/liability-in-danish-cooperation-agreements.md` |
+| Consultancy framing viability (Danish law) | G | Complete | `research/consultancy-framing-research.md` |
+| AI code rewriting IP risks | H | Complete | `research/ai-code-rewriting-ip-risks.md` |
 
 ---
 
@@ -224,9 +244,10 @@ Based on synthesis of all five research streams:
 ## Timeline
 
 - **2026-02-19**: Project initiated, all 5 research streams completed, synthesis done, draft v01 completed
-- **2026-02-25**: Internal review session. Added platform scope clarification, fair-use qualifier, mutual liability section. Liability research (Agent F) completed. Draft revised.
-- **2026-02-26**: Meeting with OptoCeutics (scheduled)
-- **Next**: Negotiation & revision based on OptoCeutics feedback
+- **2026-02-25**: Internal review session. Added platform scope clarification, fair-use qualifier, mutual liability section. Liability research (Agent F) completed. Draft v01 revised.
+- **2026-02-26**: Review with Marcus (OptoCeutics). Major restructuring: cooperation → consultancy agreement. Consultancy framing research (Agent G) and AI rewriting risk research (Agent H) completed. Draft v02 created.
+- **2026-02-26**: Meeting with OptoCeutics (today)
+- **Next**: Negotiation & revision based on meeting feedback
 
 ## Blockers
 

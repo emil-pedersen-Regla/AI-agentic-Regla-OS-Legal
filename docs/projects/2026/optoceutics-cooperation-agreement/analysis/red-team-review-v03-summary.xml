@@ -1,0 +1,63 @@
+<red_team_review>
+  <metadata>
+    <date>2026-02-26</date>
+    <subject>Consultancy Agreement v03 - Regla ApS / OptoCeutics A/S</subject>
+    <reviewer>Independent Legal Review Agent</reviewer>
+    <client>Regla ApS</client>
+  </metadata>
+
+  <overall_assessment>
+    <rating>80% ready - fundamentally sound but 4 critical gaps must be addressed before signing</rating>
+    <summary>The v03 agreement achieves its design goal: a standard-looking Danish konsulentaftale that reinforces Regla's IP position under Danish copyright law. The consultancy framing is correct and the IP ownership clause is well-drafted. However, the agreement's intentional simplicity creates specific vulnerabilities around the source code license scope, Platform definition, data ownership, and the non-compete restriction. All four critical gaps can be fixed with 3-5 additional sentences, preserving the 1.5-page format.</summary>
+  </overall_assessment>
+
+  <critical_gaps>
+    <gap priority="1">
+      <title>Source code license has no change-of-control provision</title>
+      <risk>If OptoCeutics is acquired by a Regla competitor, the surviving license extends to the acquirer's entire product portfolio. License is non-transferable but transfers by operation of law in a share sale since OptoCeutics A/S continues to exist.</risk>
+      <fix>Add one sentence limiting license scope to OptoCeutics' business as conducted at time of change of control.</fix>
+      <severity>CRITICAL - existential risk if OptoCeutics is acquired</severity>
+    </gap>
+    <gap priority="2">
+      <title>Platform definition too vague, no exclusion for OptoCeutics' own tools</title>
+      <risk>OptoCeutics has its own internal compliance platform. Broad Platform definition could be read as claiming IP over OptoCeutics' independent development. Creates litigation risk even if claim would ultimately fail.</risk>
+      <fix>Add one sentence to Background: Platform does not include software independently developed by OptoCeutics.</fix>
+      <severity>CRITICAL - could poison the relationship if either party's counsel raises it</severity>
+    </gap>
+    <gap priority="3">
+      <title>No data ownership or return/destruction provision</title>
+      <risk>Agreement is silent on who owns QMS data Regla accesses, what happens to it on termination, and whether derived insights (AI model weights) are covered. Most likely source of post-termination dispute.</risk>
+      <fix>Add one sentence to Section 5 on data return/destruction upon termination.</fix>
+      <severity>CRITICAL - both parties are exposed</severity>
+    </gap>
+    <gap priority="4">
+      <title>"Competes with the Platform" is undefined</title>
+      <risk>Restriction is meant to be IP-based (do not use our code to build a competitor) but reads as market-based (do not compete at all). OptoCeutics' own independent products could be caught. Likely unenforceable as currently drafted under Danish proportionality principles.</risk>
+      <fix>Revise to focus on source code use rather than market competition: "use the source code in the development of any product offered to third parties that replicates the Platform's core functionality."</fix>
+      <severity>CRITICAL - ambiguity creates risk for both parties</severity>
+    </gap>
+  </critical_gaps>
+
+  <significant_risks>
+    <risk severity="MEDIUM">Recharacterization as co-development if operational reality shows joint decision-making. Contract language is correct; operational discipline is the real mitigation.</risk>
+    <risk severity="MEDIUM">Three-year confidentiality survival may be too short for trade secrets. Statutory protection exists under Danish Trade Secrets Act but contractual term is more enforceable.</risk>
+    <risk severity="MEDIUM">No warranty disclaimer. Implied fitness warranty could apply under Danish default law. Liability cap provides backstop but warranty disclaimer would close the gap.</risk>
+    <risk severity="LOW-MEDIUM">Source code license scope for subsidiaries/affiliates is ambiguous.</risk>
+    <risk severity="LOW">No force majeure clause. Danish default law covers adequately.</risk>
+  </significant_risks>
+
+  <strengths>
+    <strength>Consultancy framing is legally sound and reinforces Danish copyright default (consultant retains IP)</strength>
+    <strength>IP ownership clause (Section 2.1) is clean and absolute with correct scope</strength>
+    <strength>Liability structure is proportionate: EUR 50,000 cap with appropriate carve-outs</strength>
+    <strength>Survival clause correctly identifies sections that must survive termination</strength>
+    <strength>No-cash compensation is transparently acknowledged</strength>
+    <strength>Governing law and jurisdiction are correct for two Danish parties</strength>
+  </strengths>
+
+  <meeting_guidance>
+    <minimum_before_signing>Change-of-control provision and non-compete clarification must be included before signing. These are the two items that create exploitable vulnerabilities.</minimum_before_signing>
+    <raise_in_meeting>Data return provision and Platform definition exclusion. Can be added in follow-up revision if needed but should be discussed.</raise_in_meeting>
+    <do_not_add>Indemnification, insurance, force majeure, detailed data handling, AI-specific restrictions, audit rights. These would transform the agreement from 1.5 to 4 pages, violating the core design principle. The must-do items achieve 80% of the protective value for 10% of the added complexity.</do_not_add>
+  </meeting_guidance>
+</red_team_review>
